@@ -13,12 +13,58 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <img src="./img/LOGO 2.JPG" alt="me" width="40px"> 
-      <a class="navbar-brand ps-3 pe-3 text-dark"> Nuwo's Company </a>
+      <div  class="navbar-brand">
+        <img src="./img/LOGO 2.JPG" alt="me" width="40px"> 
+        <a class="navbar-brand ps-3 pe-3 text-dark"> Nuwo's Company </a>
+      </div>
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active me-3" aria-current="page" href="./index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active me-3" href="./about.html">About</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Profile
+            </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item me-5" href="./names.html">Names</a></li>
+                <li><a class="dropdown-item" href="#">Addresses</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#"> Dates</a></li>
+              </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div>
+        <img src="./img/LOGO 2.JPG" alt="me" width="40px"> 
+        <a class="navbar-brand ps-3 pe-3 text-dark"> Nuwo's Company </a>
+      </div>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -52,7 +98,7 @@
             </ul>
           </div>
         </div>
-  </nav>
+  </nav> -->
   
   
   <div id="carouselExampleCaptions" class="carousel slide">
